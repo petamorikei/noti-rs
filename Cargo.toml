@@ -1,13 +1,17 @@
 [package]
-name = "noti"
+name = "noti-rs"
 version = "0.1.0"
 edition = "2024"
 description = "A simple CLI tool for sending desktop notifications"
 license = "MIT"
-repository = "https://github.com/petamorikei/noti"
+repository = "https://github.com/petamorikei/noti-rs"
 readme = "README.md"
 keywords = ["notification", "desktop", "cli", "macos", "linux"]
 categories = ["command-line-utilities"]
+
+[[bin]]
+name = "noti"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }

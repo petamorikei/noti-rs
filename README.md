@@ -1,11 +1,11 @@
-# noti
+# noti-rs
 
 A simple CLI tool for sending desktop notifications on macOS and Linux.
 
 ## Installation
 
 ```bash
-cargo install noti
+cargo install noti-rs
 ```
 
 ## Usage
