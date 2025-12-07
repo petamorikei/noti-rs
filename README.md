@@ -11,17 +11,17 @@ cargo install noti-rs
 ## Usage
 
 ```bash
-# Send notification with title and body
-noti --title "Build Complete" --body "Your project has been built successfully"
+# Send notification with title and message
+noti --title "Build Complete" --message "Your project has been built successfully"
 
 # Short form
-noti -t "Build Complete" -b "Success"
+noti -t "Build Complete" -m "Success"
 
 # Title only
 noti -t "Done"
 
-# Body only (title defaults to "noti")
-noti -b "Task completed"
+# Message only (title defaults to "noti")
+noti -m "Task completed"
 ```
 
 ## Options
@@ -29,7 +29,7 @@ noti -b "Task completed"
 | Option | Short | Description |
 |--------|-------|-------------|
 | `--title` | `-t` | Notification title |
-| `--body` | `-b` | Notification body |
+| `--message` | `-m` | Notification message |
 | `--help` | `-h` | Show help |
 
 ## License
